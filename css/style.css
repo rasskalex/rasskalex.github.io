@@ -28,6 +28,8 @@ header {
 }
 .header-button {
     /* Style for "Прямоуголь" */
+    display: inline-block;
+    text-decoration: none;
     box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
     border-radius: 50px;
     border: hidden;
@@ -129,6 +131,7 @@ footer {
     margin-bottom: 13px;
 }
 .footer-button {
+    text-decoration: none;
     display: inline-block;
     border-radius: 50px;
     border: 1px solid #ffffff;
